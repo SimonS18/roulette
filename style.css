@@ -1,0 +1,349 @@
+body{
+    background-image: url("achtergrond 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tafel {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 20%;
+}
+
+#achtergrond{
+    display: flex;
+    position: absolute;
+    background-color:rgb(51, 153, 51);
+    height: 55%;
+    width: 54%;
+    top: 25%;
+    left: 30%;
+    border-radius: 4%;
+    border: 13px solid #663300
+}
+
+.vakje{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 5%;
+    left: 45.3%;
+    text-align: center;
+    top: 65.5%;
+    border: 1px solid white;
+}
+.vakje1{
+    color: white;
+    padding-left: 26%;
+    padding-top: 10%;
+}
+.even{
+position: absolute;
+display: flex;
+z-index: 1;
+height: 9%;
+width: 5.1%;
+left: 50.4%;
+text-align: center;
+top: 65.5%;
+border: 1px solid white;
+
+}
+
+.vakje2{
+    color: white;
+    padding-left: 23%;
+    padding-top: 12%;
+
+}
+.red{
+    background-color: red;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 5.1%;
+    left: 55.6%;
+    text-align: center;
+    top: 65.5%;
+    border: 1px solid white;
+}
+
+.vakje3{
+color: white;
+padding-left: 27%;
+padding-top: 12%;
+
+}
+
+.black{
+    background-color:black;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 5.2%;
+    left: 60.8%;
+    text-align: center;
+    top: 65.5%;
+    border: 1px solid white;
+}
+
+.vakje4{
+color: white;
+padding-left: 23%;
+padding-top: 12%;
+
+}
+
+.ODD{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 5%;
+    left: 66.1%;
+    text-align: center;
+    top: 65.5%;
+    border: 1px solid white;
+}
+
+.vakje5{
+color: white;
+padding-left: 23%;
+padding-top: 12%;
+}
+
+.negentien{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 5.2%;
+    left: 71.2%;
+    text-align: center;
+    top: 65.5%;
+    border: 1px solid white;
+}
+
+.vakje6{
+color: white;
+padding-left: 23%;
+padding-top: 12%;
+}
+
+.eerste{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 10.2%;
+    left: 45.3%;
+    text-align: center;
+    top: 56.5%;
+    border: 1px solid white;
+}
+.vakje7{
+    color: white;
+    padding-left: 33%;
+    padding-top: 7%;
+}
+
+.tweede{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 10.4%;
+    left: 55.6%;
+    text-align: center;
+    top: 56.5%;
+    border: 1px solid white;
+}
+
+.vakje8{
+    color: white;
+    padding-left: 33%;
+    padding-top: 7%;
+}
+
+.derde{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 10.3%;
+    left: 66.1%;
+    text-align: center;
+    top: 56.5%;
+    border: 1px solid white;
+}
+
+.vakje9{
+    color: white;
+    padding-left: 33%;
+    padding-top: 7%;
+}
+
+#een{
+color:white;
+}
+th {
+    border: 1px solid white;
+    padding: 10px;
+    font-family:'gothic';
+    font-size: 14px;
+    color: white;
+}
+tr:nth-child(even) {
+    color: white;
+}
+
+th[scope="col"] {
+    background-color: white;
+    color: #fff;
+}
+
+table{
+position: relative;
+left: 861.2px;
+right: 60px;
+bottom: 11px;
+top: 70px;
+z-index: 1;
+transform: rotate(270deg);
+}
+
+#een{
+background-color:red;
+}
+#twee{
+background-color: black;
+}
+#drie{
+background-color: red;
+}
+#vier{
+background-color: black;
+}
+#vijf{
+background-color: red;
+}
+#zes{
+background-color: black;
+}
+#zeven{
+background-color: red;
+}
+#acht{
+background-color:black;
+}
+#negen{
+background-color: red;
+}
+#tien{
+background-color: black;
+}
+#elf{
+background-color:black;
+}
+#twaalf{
+background-color: red;
+}
+#dertien{
+background-color:black;
+}
+#veertien{
+background-color: red;
+}
+#vijftien{
+background-color:black;
+}
+#zestien{
+background-color:red;
+}
+#zeventien{
+background-color: black;
+}
+#achttien{
+background-color: red;
+}
+#negentien{
+background-color: red;
+}
+#twintig{
+background-color: black;
+}
+#eenentwintig{
+background-color: red;
+}
+#tweeëntwintig{
+background-color: black;
+}
+#drieëntwintig{
+background-color: red;
+}
+#vierentwintig{
+background-color: black;
+}
+#vijfentwintig{
+background-color: red;
+}
+#zesentwintig{
+background-color: black;
+}
+#zevenentwintig{
+background-color: red;
+}
+#achtentwintig{
+background-color: black;
+}
+#negenentwintig{
+background-color: black;
+}
+#dertig{
+background-color: red;
+}
+#eenendertig{
+background-color: black;
+}
+#tweeëndertig{
+background-color: red;
+}
+#drieëndertig{
+background-color: black;
+}
+#vierendertig{
+background-color: red;
+}
+#vijfendertig{
+background-color: black;
+}
+#zesendertig{
+background-color: red;
+}
+
+.nul{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 7%;
+    width: 10.7%;
+    left: 38%;
+    top: 41.85%;
+    border: 1px solid white;
+    transform: rotate(90deg);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.vakje10{
+    color: white;
+    text-align: center;
+    display: flex;
+    padding-left: 48%;
+    padding-top: 0%;
+}
